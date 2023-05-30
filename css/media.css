@@ -1,0 +1,197 @@
+
+@media screen and (max-width:575px){
+    .xs-order{
+        order:-1
+    }
+    .prof{
+        height:250px;
+        object-fit: cover;
+        object-position: right top;
+        float: right;
+    }
+}
+@media screen and (max-width:690px){
+    .myname{
+        font-size:30px;
+        font-weight: 600;
+        position: absolute;
+        top: 1.5rem;
+        left: 1rem;
+    }
+    .fullstack{
+        position: absolute;
+        top: 3.6rem;
+        left: 1rem;
+    }
+}
+
+
+
+
+    @media screen and (max-width:992px){
+
+    .responsive{
+transform:scale(.3) ;    
+bottom: -5%;
+right: -10%;
+ }
+
+
+    body{
+        font-size: 0.875rem;
+    }
+
+
+    .banner,.contact h4,.contact h6,.project p,.education p{
+        font-size: 13px;
+    }
+    .cardhp p{
+        height: 34px;
+    }
+    .divCard{
+        margin-top:0rem
+    }
+    .skills img{
+        width: 50px;  
+    }
+    .skills > div{
+        gap: .1rem;
+        padding: 0rem;
+    }
+    
+    .project h5{
+        font-size: 15px;
+        text-align: center;
+    }
+    .project{
+        padding: 0rem;
+    }
+    .project i{
+        font-size: 40px;
+        height: 70px;
+    }
+    .banner{
+        margin: 3rem 0rem;
+      }  
+
+
+    .myBtn{
+        color:#ff5722;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+    .social-icons{
+        transform: scale(0.7);
+        left:-17px;
+          }
+
+    .skills{
+        grid-template-columns:  1fr 1fr 1fr;
+        gap:0;
+    }
+    .education{
+        grid-template-columns: repeat(2,1fr);
+        transform: scale(.8);
+justify-content: center;
+row-gap: 4rem;
+margin-bottom: 0;
+
+    }
+    .projects{
+    grid-template-columns: repeat(2,1fr);
+
+    }
+    .footer{
+        padding: 0rem ;
+    }
+    
+    .footer ul{
+        padding-left: 0rem;
+        margin-top:1rem
+    }
+    .letsCode{
+        font-size: 30px;
+        margin-top: 1rem;
+    
+    } 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:1024px){
+
+    .skills{
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+        gap:0;
+    }
+
+    .prof{ width: 100%  }
+.getResume{
+    width: 140%;
+}
+    .myBtn{
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        color: red;
+    }
+.social-icons{top:-3rem}
+    .experience{
+flex-direction: row;
+    }
+
+    .education{
+  justify-content: center;
+grid-template-columns: repeat(3,1fr);
+
+        
+        }
+
+
+    }
+
+    @media screen and (max-width:376px){
+.education{
+    transform: scale(.7);
+    row-gap: 5rem;
+
+
+}
+
+    }
+
+    @media screen and (max-width:400px){
+        .education{
+            transform: scale(.7);
+            row-gap: 5rem;
+        }
+        .experience{
+            flex-direction: column;
+        }
+        .skills{
+            grid-template-columns:  1fr 1fr;
+        }
+
+        .projects{
+            grid-template-columns: repeat(1,1fr);
+        }
+            }
+
+
+
+
+
+
+
