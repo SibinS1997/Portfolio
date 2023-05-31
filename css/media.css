@@ -34,13 +34,10 @@
 }
 
     @media screen and (max-width:991px){
-
-        
 .div-title span{
     font-size: larger;
-border: none;
-padding:0 ;
-
+    border: none;
+    padding:0 ;
 }
         .navbar-collapse {
             position: absolute;
@@ -177,23 +174,15 @@ flex-direction: row;
     .education{
   justify-content: center;
 grid-template-columns: repeat(3,1fr);
-
-        
+    
         }
-
-
     }
-
     @media screen and (max-width:376px){
 .education{
     transform: scale(.7);
     row-gap: 5rem;
-
-
 }
-
-    }
-
+ }
     @media screen and (max-width:400px){
         .education{
             transform: scale(.7);
