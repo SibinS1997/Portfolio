@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -11,6 +11,7 @@ body{
     font-family: 'Poppins', sans-serif;
    
 }
+
 p{
     color: #585858;
 }
@@ -28,32 +29,9 @@ margin: 0.5rem;
 }
 .prof{
     width: 80%;
-   /* filter: drop-shadow(0px 0px 1px red) */
 
 }
 
-.TY{
-    display: flex;
-    gap: 1rem;
-    position: absolute;
-    bottom: -1rem;right: 0;
-}
-.thankyou {
-    width: 400px;
-    padding: .7rem;
-background-color: #FFF;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-font-size: 12px;
-border-radius: 4px;
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 1rem;
-}
-
-.thankyou img{
-    width: 60px;
-}
 .SI-div{
     position: absolute;left: -8px;
 }
@@ -177,14 +155,9 @@ h2.myname:first-letter {
 margin-bottom :.2rem
 
 }
-
-
-
 .div-title span{
     color: #ff5722;
-    border: 1px solid ;
     font-size: larger;
-    padding:.5rem ;
 
 }
 
