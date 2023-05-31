@@ -15,7 +15,9 @@
     }
     
 }
-
+.firstBanner{
+    overflow: hidden;
+}
 @media screen and (max-width:690px){
     .myname{
         font-size:30px;
@@ -32,6 +34,14 @@
 }
 
     @media screen and (max-width:991px){
+
+        
+.div-title span{
+    font-size: larger;
+border: none;
+padding:0 ;
+
+}
         .navbar-collapse {
             position: absolute;
             background: #fffffff7;
