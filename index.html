@@ -6,13 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta name="viewport" content="width=1280">
-  <title>Document</title>
+  <title>SiBiN</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/bootstrap-icons.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/media.css" />
   <link rel="stylesheet" href="css/aos.css" />
-<script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -32,7 +31,7 @@
           <div class="navbar-brand">
 
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarText"
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -103,24 +102,20 @@
                   designer, editor, blah blah for the past years loving to explore the world of coding and
                   programming. __smile() </p>
 
-                <button class="myBtn mt-3">Get My resume <i class="bi bi-box-arrow-down"></i> </button>
+               <a href="resume/Resume.pdf"> <button class="myBtn mt-3" href="resume/">Get My resume <i class="bi bi-box-arrow-down"></i> </button></a>
 
               </div>
 
             </div>
           </div>
-          <div class="col-lg-6 col-sm-6 xs-order" style="position:relative;">
+          <div class="col-lg-6 col-sm-6 xs-order" style="position:relative;overflow: hidden;">
 
-
-            <img src="images/1-min (1).png" class="prof" />
-            <div class="TY">
-
-
-
+<div class="profImg">
+  <img src="images/1-min (1).png" class="prof" />
 
 </div>
+     
           </div>
-
 
 
 
@@ -608,8 +603,9 @@
 </footer>
 
 </body>
+
 <script src="js/jquery-3.6.3.min.js"></script>
-<script src="js/lottie-player.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/aos.js"></script>
 <script>
   $(document).ready(function () {
@@ -622,7 +618,6 @@ $('#loading').addClass('d-none')
       } else {
         $('.responsive').show();
       }
-
 var d =true
 $('#responsive').click(function(){
   
