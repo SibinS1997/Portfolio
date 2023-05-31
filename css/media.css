@@ -4,12 +4,18 @@
         order:-1
     }
     .prof{
-        height:250px;
+        height:300px;
+        width:400px;
         object-fit: cover;
         object-position: right top;
-        float: right;
+        border-radius: 50%;
+        border-right: 20px solid #ff5722;
+        border-bottom:2px solid  #ff5722;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     }
+    
 }
+
 @media screen and (max-width:690px){
     .myname{
         font-size:30px;
@@ -25,17 +31,23 @@
     }
 }
 
-
-
-
-    @media screen and (max-width:992px){
-
+    @media screen and (max-width:991px){
+        .navbar-collapse {
+            position: absolute;
+            background: #fffffff7;
+            width: 80%;
+            top: 5rem;
+            z-index: 999;
+            right: 0;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 12px;
+            padding-left: 4%;
+        }
     .responsive{
 transform:scale(.3) ;    
 bottom: -5%;
 right: -10%;
  }
-
 
     body{
         font-size: 0.875rem;
