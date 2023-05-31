@@ -608,7 +608,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/aos.js"></script>
 <script>
-  $(document).ready(function () {
+   $(window).on('load',function () {
     AOS.init()
 $('#loading').addClass('d-none')
     var deviceWidth = window.screen.width;
