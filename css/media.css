@@ -32,8 +32,6 @@
 
     @media screen and (max-width:991px){
 .div-title span{
-    font-size: larger;
-    border: none;
     padding:0 ;
 }
         .navbar-collapse {
