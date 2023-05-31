@@ -29,9 +29,10 @@ margin: 0.5rem;
 }
 .prof{
     width: 80%;
-
 }
-
+.profImg{
+    overflow: hidden;
+}
 .SI-div{
     position: absolute;left: -8px;
 }
